@@ -49,3 +49,24 @@ for(i,0,no)
 cout<<arr[i]<<" ";
 }
 
+
+/*addong bubble sort */
+int main()
+{
+ios::sync_with_stdio(0);
+//cin.tie(0);
+ll no;
+cout<<"ENTER NO. OF TERMS TO BE SORTED(Bubble SORT)"<<"\n";
+cin>>no;
+ll arr[no];
+for(i=0;i<no;i++){
+	for(j=0;j<no-i-1;j++){
+		if(arr[j]>arr[j+1]{
+		int temp=arr[j];
+		arr[j]=arr[j+1];
+		arr[j+1]=temp;
+		}
+cout<<"SORTED ARRAY IS (Bubble SORT)"<<"\n";
+for(i=0,i<no,i++)
+cout<<arr[i]<<" ";
+}
